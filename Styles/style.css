@@ -81,6 +81,7 @@ p, input, li {
 li {
   display: list-item;
   text-align: -webkit-match-parent;
+  list-style-type: none;
 }
 
 nav a {
@@ -218,29 +219,24 @@ p {
   margin-inline-end: 0px;
 }
 
+h3 {
+  font-size: 2.2rem;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
 
+aside {
+  flex: 1;
+  margin-left: 10px;
+  background-color: #fa6322;
+  display: block;
+}
 
-body {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .sender-column {
-    text-align: right;
-  }
-  
-  h1 {
-    font-size: 1.5em;
-  }
-  
-  h2 {
-    font-size: 1.3em;
-  }
-  
-  p,ul,ol,dl,address {
-    font-size: 1.1em;
-  }
-  
-  p, li, dd, dt, address {
-    line-height: 1.5;
-  }
+aside li {
+  padding-bottom: 10px;
+}
