@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background-color: #ef5411;
+  background-color: #000000;
 }
 
 html, body {
@@ -8,16 +8,19 @@ html, body {
   padding: 0;
 }
 
-html[Attributes Style] {
-  -webkit-locale: "en-us";
-}
-
-:root {
-  view-transition-name: root;
-}
-
 html {
   display: block;
+}
+
+head {
+  display: none;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #ef5411;
+  text-shadow: 2px 2px 10px black;
 }
 
 body {
