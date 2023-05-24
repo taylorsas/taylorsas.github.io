@@ -2,6 +2,24 @@ html {
   font-size: 10px;
   background-color: #ef5411;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html[Attributes Style] {
+  -webkit-locale: "en-us";
+}
+
+:root {
+  view-transition-name: root;
+}
+
+html {
+  display: block;
+}
+
 body {
     max-width: 800px;
     margin: 0 auto;
