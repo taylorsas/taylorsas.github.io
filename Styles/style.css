@@ -17,7 +17,7 @@ head {
 }
 
 h1 {
-  font-size: 10rem;
+  font-size: 20rem;
   text-align: left;
   color: #fa6322;
   display: block;
@@ -201,7 +201,7 @@ article {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 9rem;
   text-align: center;
   display: block;
   font-size: 1.5em;
@@ -221,7 +221,7 @@ p {
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 5rem;
   display: block;
   font-size: 1.17em;
   margin-block-start: 1em;
