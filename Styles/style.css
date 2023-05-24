@@ -230,7 +230,7 @@ h3 {
 }
 
 aside {
-  align-content: right;
+  align-content: left;
   flex: 2;
   margin-left: 10px;
   background-color: #fa6322;
