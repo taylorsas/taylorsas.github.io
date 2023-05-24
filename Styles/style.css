@@ -7,6 +7,14 @@ html, body {
   padding: 0;
 }
 
+html[Attributes Style] {
+  -webkit-locale: "en-us";
+}
+
+:root {
+  view-transition-name: root;
+}
+
 html {
   display: block;
 }
@@ -81,14 +89,6 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
   list-style-type: none;
-}
-
-nav a {
-  display: inline-block;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
 }
 
 a:-webkit-any-link {
@@ -205,7 +205,7 @@ h2 {
   display: block;
   font-size: 2.5em;
   margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-block-end: 100em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
