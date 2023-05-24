@@ -196,6 +196,7 @@ article {
   flex: 4;
   display: block;
   background-color: #FFFFFF;
+  margin-left: 10px;
 }
 
 h2 {
@@ -233,6 +234,7 @@ aside {
   align-content: right;
   flex: 1;
   margin-left: 10px;
+  margin-right:10px;
   background-color: #fa6322;
   display: block;
 }
