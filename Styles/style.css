@@ -163,6 +163,31 @@ input {
   border-image: initial;
 }
 
+input[type="submit"] {
+  flex: 1;
+  margin-left: 1rem;
+  background: #000000;
+  border: 0;
+  color: white;
+}
+
+input[type="submit" i] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
 body {
     max-width: 800px;
     margin: 0 auto;
