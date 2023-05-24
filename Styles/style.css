@@ -40,7 +40,7 @@ nav {
   margin-bottom: 10px;
 }
 
-nav, article, aside, footer {
+nav, aside, footer {
   background-color: #fa6322;
   padding: 1%;
 }
@@ -197,6 +197,7 @@ main {
 article {
   flex: 4;
   display: block;
+  background-color: #FFFFFF;
 }
 
 h2 {
